@@ -116,5 +116,30 @@
 }
 
 .footer-Bottom{
-    
+    padding: 0.5rem 5.5rem 1rem 0.5rem;
+    .left{
+        text-align: left;
+        color: #d0d0d2;
+        ul{
+            padding: 2rem 0 1rem 0;
+            li::after{
+                content: '|';
+                padding: 0 20px 0 20px;
+            }
+            li:last-child::after{
+                content: "";
+                padding-right: 0px;
+            }
+        }
+        p:nth-child(2){
+            font-size: 0.8rem;
+        }
+        p:nth-child(3){
+            padding: 1.8rem 0 1rem 0;
+            font-size: 0.9rem;
+        }
+    }
+    .right{
+        text-align: right;
+    }
 }

@@ -142,10 +142,14 @@
 }
 .footer-Bottom .right {
   align-items: end;
+  gap: 0.8rem;
 }
 .footer-Bottom .right select {
   width: -moz-min-content;
   width: min-content;
+  padding: 0.2rem 5rem 0.2rem 0.2rem;
+  cursor: pointer;
+  border-radius: 0.2rem;
 }
 .footer-Bottom .right ul {
   color: rgba(180, 180, 184, 0.368);

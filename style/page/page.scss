@@ -145,8 +145,12 @@
     }
     .right{
        align-items: end;
+       gap: 0.8rem;
         select{
             width: min-content;
+            padding: 0.2rem 5rem 0.2rem 0.2rem;
+            cursor: pointer;
+            border-radius: 0.2rem;
         }
         ul{
             color: rgba(180, 180, 184, 0.368);

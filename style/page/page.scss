@@ -109,14 +109,18 @@
 }
 
 .footer-head{
-    padding: 0 5.5rem 0 5.5rem;
-    .column img{
+    padding: 0 5.5rem 2rem 5.5rem;
+    .column{   
+        width: fit-content;
+        img{
             width: 13rem;
+        }
     }
+    
 }
-
 .footer-Bottom{
-    padding: 0.5rem 5.5rem 1rem 0.5rem;
+    padding: 0 5.5rem 2rem 5.5rem;
+    margin-bottom: 10rem;
     .left{
         text-align: left;
         color: #d0d0d2;
@@ -140,6 +144,14 @@
         }
     }
     .right{
-        text-align: right;
+       align-items: end;
+        select{
+            width: min-content;
+        }
+        ul{
+            color: rgba(180, 180, 184, 0.368);
+            width: 20rem;
+            font-size: 1.9rem;
+        }
     }
 }

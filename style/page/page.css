@@ -104,14 +104,19 @@
 }
 
 .footer-head {
-  padding: 0 5.5rem 0 5.5rem;
+  padding: 0 5.5rem 2rem 5.5rem;
+}
+.footer-head .column {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 .footer-head .column img {
   width: 13rem;
 }
 
 .footer-Bottom {
-  padding: 0.5rem 5.5rem 1rem 0.5rem;
+  padding: 0 5.5rem 2rem 5.5rem;
+  margin-bottom: 10rem;
 }
 .footer-Bottom .left {
   text-align: left;
@@ -136,5 +141,14 @@
   font-size: 0.9rem;
 }
 .footer-Bottom .right {
-  text-align: right;
+  align-items: end;
+}
+.footer-Bottom .right select {
+  width: -moz-min-content;
+  width: min-content;
+}
+.footer-Bottom .right ul {
+  color: rgba(180, 180, 184, 0.368);
+  width: 20rem;
+  font-size: 1.9rem;
 }/*# sourceMappingURL=page.css.map */

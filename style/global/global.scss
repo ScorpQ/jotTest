@@ -61,22 +61,21 @@ body{
 .color-orange{
     color: V.$orange;
 }
-
 .color-blue{
     color: V.$dark-blue;
 }
-
 .color-white{
     color: #FFFF;
 }
 .color-gray{
     color: #ada0a0;
 }
-
+.back-dark-blue{
+    background-color: V.$dark-blue;
+}
 .back-light-blue{
     background-color: V.$light-blue;
 }
-
 .back-blue{
     background-color: V.$blue;
 }
@@ -84,7 +83,6 @@ body{
 .back-orange{
     background-color: V.$orange;
 }
-
 .decor-none{
     text-decoration: none;
 }
